@@ -1,0 +1,62 @@
+/* footer styles */
+.footer-wrapper {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: 'Ubuntu condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+.footer-wrapper > .footer-logo img {
+    width: 150px;
+    height: 100%;
+    /* filter: brightness(50%); */
+    opacity: 0.5;
+}
+
+.footer-wrapper > .footer-contact-hours span{
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer-wrapper > .footer-contact-hours > .footer-hours {
+   font-size: 0.8em;
+   color: #cceeaa;
+   text-transform: uppercase;
+}
+
+.footer-wrapper > .links-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer-wrapper > .social-media-icons-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-wrapper > .social-media-icons-wrapper a {
+    font-size: 1.5em;
+    color: silver;
+    transition: 0.5s;
+}
+
+.footer-wrapper > .social-media-icons-wrapper a:hover {
+    color: #cceeaa;
+}
+
+.footer-wrapper > .copyright-wrapper {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}

@@ -1,0 +1,99 @@
+@media (max-width: 615px) {
+  .navigation-wrapper {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .navigation-wrapper > .left-column {
+    order: 2;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .navigation-wrapper > .center-column {
+    order: 1;
+    width: 100%;
+  }
+
+  .navigation-wrapper > .right-column {
+    order: 3;
+    margin-top: 15px;
+  }
+
+  .links-wrapper {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .link-wrapper > .link-nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    width: 100%;
+  }
+
+  .hero-section {
+    padding: 50px 10px;
+  }
+
+  .features-section {
+    height: 100%;
+  }
+
+  .features-section > .columns-wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .footer {
+    height: 100%;
+  }
+
+  .skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    flex-direction: column;
+  }
+  /* cuando guarde hasta este punto el recuadro ya estaba grande, pero si queda peque;o el relleno aplicar el siguiente */
+
+  .skewed-header > .heading-wrapper {
+    background-size: 550px;
+  }
+
+  .page-container > .content-wrapper > #chef {
+    margin: 0px 0px 25px 0px;
+    width: 100%;
+  }
+
+  .page-container {
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+
+  .square {
+    grid-template-columns: 1fr !important;
+  }
+
+  .square > .square-text-wrapper {
+    order: 1;
+  }
+
+  .square > .img-wrapper {
+    order: 2;
+  }
+
+  .contact-grid-wrapper {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
+  .form input {
+    padding: 1.5rem 0rem;
+  }
+
+  .form textarea {
+    padding: 1.5rem;
+  }
+}
+
+/* flexbox tiene tambien la habilidad ademas de acomodar en columnas, de cambiar la position de los elementos */
+/* !important; establece prioridad en mis elementos, y sobrepone el estilo a los que hubiera fijado antes */

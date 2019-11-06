@@ -1,0 +1,26 @@
+/* helpers styles, ayuda a tener margen cuando sea que lo necesite sin alterar los otros margenes en esta u otras paginas */
+.spacer60 {
+    height: 60px;
+    width: 100%;
+}
+
+.spacer10 {
+    height: 10px;
+    width: 100%;
+}
+
+.anchor-link {
+    text-decoration: none;
+}
+
+.anchor-link:focus {
+    outline: none;
+}
+
+/* pseudo selector */
+.anchor-link h1::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f35d";
+    font-weight: 900;
+}
+
